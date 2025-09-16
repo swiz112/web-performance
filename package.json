@@ -1,0 +1,31 @@
+{
+  "name": "web-performance",
+  "version": "1.0.0",
+  "description": "web-performance",
+  "main": "web-test.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "perf-test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swiz112/web-performance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swiz112/web-performance/issues"
+  },
+  "homepage": "https://github.com/swiz112/web-performance#readme",
+  "dependencies": {
+    "@playwright/test": "^1.55.0",
+    "lighthouse": "^12.8.2",
+    "playwright-core": "^1.55.0",
+    "xlsx": "^0.18.5"
+  }
+}
